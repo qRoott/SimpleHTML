@@ -1,0 +1,11 @@
+
+
+
+<h1 id="value">Morning Routine</h1>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const value = urlParams.get('value');
+    document.getElementById("value").innerHTML = value;
+</script>
